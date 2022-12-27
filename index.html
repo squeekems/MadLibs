@@ -4,37 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+          crossorigin="anonymous">
     <link rel="stylesheet" href="style.css"/>
     <title>Madlibs by Squeekems</title>
   </head>
   <body>
-    <div>
-      <div class="pnlTitle"><!------------------------ TITLE CARD ------------------------------ -->
+    <div class="d-flex flex-column align-items-center">
+      <div class="d-flex flex-column align-items-center pnlTitle"><!--------------- TITLE CARD -->
         <h1>MadLibs</h1>
-        <h2 style="font-size: xxx-large;">MadLibs</h2>
+        <h2>Home</h2>
       </div>
-      <div class="pnlNav"><!-------------------------- NAV BAR --------------------------------- -->
-        <nav>
-          <button class="home">Home</button>
-          <button class="about">About</button>
+      <div class="d-flex justify-content-center pnlNav"><!---------------------------- NAV BAR -->
+        <nav class="border border-dark">
+          <button class="btn btn-dark home">Home</button>
+          <button class="btn btn-dark about">About</button>
         </nav>
       </div>
-      <div class="pnlParagraph"> <!------------------- PARAGRAPH ------------------------------- -->
+      <div id="frmParagraph" class="d-flex flex-column align-items-center"> <!------ PARAGRAPH -->
         <p>Choose a story subject.</p>
         <p>Fill in the form.</p>
         <p>All of the form is required.</p>
-        <div class="grpSubjects"><!------------------- SUBJECTS -------------------------------- -->
+        <div class="grpSubjects"><!-------------------------------------------------- SUBJECTS -->
           <label for="cmbSubjects">Choose Story Subject:</label>
           <select id="cmbSubjects" class="cmbSubjects">
             <option value="Dragon">Dragon</option>
-            <option value="Princess">Princess</option>
-            <option value="Adventure">Adventure</option>
           </select>
-          <button class="cmdSubjects" type="button">Submit</button>
+          <button class="btn btn-dark cmdSubjects" type="button">Submit</button>
         </div>
       </div>
-      <div class="pnlForms">
-        <form class="frmActual"><!-------------------- FORM DRAGON ----------------------------- -->
+      <div id="pnlForms" class="pnlForms">
+        <!------------------------------------------------------------------------ FORM DRAGON -->
+        <form id="frmDragon" class="frmDragon actual-form">
           <table>
             <tr><th>Type</th><th>Word</th></tr>
             <tr><td>Color</td><td><input
@@ -68,10 +71,14 @@
                     class="txtDragonAdjective4"
                     placeholder="Adjective" autocapitalize="off"></td></tr>
           </table>
-          <button class="cmdDragon" type="button">Submit</button>
+          <button class="btn btn-dark cmdDragon" type="button">Submit</button>
         </form>
+        <!--------------------------------------------------------------------------------------->
       </div>
     </div>
   </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+          crossorigin="anonymous"></script>
   <script src="./script/scriptHome.js"></script>
 </html>
