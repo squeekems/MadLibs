@@ -1,0 +1,147 @@
+* {
+  margin: 6px;
+  padding: 3px;
+  border-radius: 5px;
+  color: white;
+  background: black;
+  font-family: 'Source Code Pro', serif;
+  font-weight: bold;
+}
+
+.pnlTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pnlNav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 205px;
+  border: 1px solid blue;
+  background: black;
+}
+
+h1 { /* From display-markdown */
+  line-height: 1;
+}
+
+h2 { /* From display-markdown */
+  border-bottom: solid 1px #aaa;
+}
+
+body {
+  background: black;
+  position: relative;
+  max-width: 760px; /* From display-markdown */
+  margin: 0 auto; /* From display-markdown */
+  padding: 25px; /* From display-markdown */
+  color: #333333; /* From display-markdown */
+  font-family: 'Source Code Pro', "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif; /* From display-markdown */
+  font-size: 16px; /* From display-markdown */
+  line-height: 1.6; /* From display-markdown */
+}
+
+a {
+  margin: 0px;
+  padding: 0px;
+}
+
+button {
+  color: white;
+  background: blue;
+  box-shadow: 1px 1px rgb(0, 0, 150);
+  margin: 0px;
+  padding: 6px 3px;
+  transition: all 500ms;
+}
+
+button:hover {
+  color: rgb(200, 200, 200);
+  background: rgb(0, 0, 200);
+  transition: all 500ms;
+}
+
+button:active {
+  color: rgb(200, 200, 200);
+  background: rgb(0, 0, 200);
+  box-shadow: 0px 0px black;
+  transform: translateY(1px);
+}
+
+code {
+  color: black;
+  background: rgb(200, 200, 200);
+  border-radius: 5px; /* From display-markdown */
+  display: inline-block; /* From display-markdown */
+  padding: 0 8px; /* From display-markdown */
+  font-family: 'Source Code Pro', Consolas, Courier, monospace; /* From display-markdown */
+}
+
+.sparkle {
+  border-radius: 40%;
+  width: 300px; /* For phone view */
+  height: auto;
+}
+
+/* Used on Home Page */
+.pnlHome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pnlParagraph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grpSubjects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pnlForms {
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+}
+
+.frmActual {
+  display: none; /* Updated in form-open */
+  opacity: 0; /* Updated in form-open */
+  pointer-events: none; /* Updated in form-open */
+  visibility: hidden; /* Updated in form-open */
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.form-open.frmActual {
+  display:flex;
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+}
+
+.form-close {
+  display: none;
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.pnlStory {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px; /* For phone view */
+}

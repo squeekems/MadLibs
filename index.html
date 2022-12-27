@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Madlibs by Squeekems</title>
+  </head>
+  <body>
+    <div>
+      <div class="pnlTitle"><!------------------------ TITLE CARD ------------------------------ -->
+        <h1>MadLibs</h1>
+        <h2 style="font-size: xxx-large;">MadLibs</h2>
+      </div>
+      <div class="pnlNav"><!-------------------------- NAV BAR --------------------------------- -->
+        <nav>
+          <button class="home">Home</button>
+          <button class="about">About</button>
+        </nav>
+      </div>
+      <div class="pnlParagraph"> <!------------------- PARAGRAPH ------------------------------- -->
+        <p>Choose a story subject.</p>
+        <p>Fill in the form.</p>
+        <p>All of the form is required.</p>
+        <div class="grpSubjects"><!------------------- SUBJECTS -------------------------------- -->
+          <label for="cmbSubjects">Choose Story Subject:</label>
+          <select id="cmbSubjects" class="cmbSubjects">
+            <option value="Dragon">Dragon</option>
+            <option value="Princess">Princess</option>
+            <option value="Adventure">Adventure</option>
+          </select>
+          <button class="cmdSubjects" type="button">Submit</button>
+        </div>
+      </div>
+      <div class="pnlForms">
+        <form class="frmActual"><!-------------------- FORM DRAGON ----------------------------- -->
+          <table>
+            <tr><th>Type</th><th>Word</th></tr>
+            <tr><td>Color</td><td><input
+                    class="txtDragonColor"
+                    placeholder="Color" autocapitalize="off"></td></tr>
+            <tr><td>Superlative<br/>(Ending in est)</td><td><input
+                    class="txtDragonSuperlative"
+                    placeholder="Superlative" autocapitalize="off"></td></tr>
+            <tr><td>Adjective 1</td><td><input
+                    class="txtDragonAdjective1"
+                    placeholder="Adjective" autocapitalize="off"></td></tr>
+            <tr><td>Body Part<br/>(Plural)</td><td><input
+                    class="txtDragonBodyPartP"
+                    placeholder="Body Part" autocapitalize="off"></td></tr>
+            <tr><td>Body Part</td><td><input
+                    class="txtDragonBodyPart"
+                    placeholder="Body Part" autocapitalize="off"></td></tr>
+            <tr><td>Noun</td><td><input
+                    class="txtDragonNoun"
+                    placeholder="Noun" autocapitalize="off"></td></tr>
+            <tr><td>Animal<br/>(Plural)</td><td><input
+                    class="txtDragonAnimal"
+                    placeholder="Animal" autocapitalize="off"></td></tr>
+            <tr><td>Adjective 2</td><td><input
+                    class="txtDragonAdjective2"
+                    placeholder="Adjective" autocapitalize="off"></td></tr>
+            <tr><td>Adjective 3</td><td><input
+                    class="txtDragonAdjective3"
+                    placeholder="Adjective" autocapitalize="off"></td></tr>
+            <tr><td>Adjective 4</td><td><input
+                    class="txtDragonAdjective4"
+                    placeholder="Adjective" autocapitalize="off"></td></tr>
+          </table>
+          <button class="cmdDragon" type="button">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="./script/scriptHome.js"></script>
+</html>
