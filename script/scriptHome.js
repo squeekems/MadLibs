@@ -59,11 +59,30 @@ cmdDragon?.addEventListener("click", function() {
   }
 })
 
+// Example Form
+const frmExample = document.querySelector(".frmExample");
+const txtExampleAdjective1 = document.querySelector(".txtExampleAdjective1");
+const txtExampleAdjective2 = document.querySelector(".txtExampleAdjective2");
+const arrExample = [txtExampleAdjective1, txtExampleAdjective2]
+const cmdExample = document.querySelector(".cmdExample");
+
+cmdExample?.addEventListener("click", function() {
+  if (isFilled(arrExample)) {
+    pnlParagraph.classList.add("form-close");
+    txtStory.classList.add("form-open");
+    frmExample.classList.remove("form-open");
+    txtStory.innerHTML = ``;
+  }
+})
+
 cmdSubjects?.addEventListener("click", function() {
   grpSubjects.classList.add("form-close")
   switch (cmbSubjects.value) {
     case "Dragon":
       frmDragon.classList.add("form-open")
+      break;
+    case "Example":
+      frmExample.classList.add("form-open")
       break;
   }
 })
