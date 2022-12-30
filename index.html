@@ -32,6 +32,7 @@
           <label for="cmbSubjects">Choose Story Subject:</label>
           <select id="cmbSubjects" class="cmbSubjects">
             <option value="Dragon">Dragon</option>
+            <option value="Example">Example</option>
           </select>
           <button class="btn btn-dark cmdSubjects" type="button">Submit</button>
         </div>
@@ -76,8 +77,22 @@
           <button class="btn btn-dark cmdDragon" type="button">Submit</button>
         </form>
         <!--------------------------------------------------------------------------------------->
+        <!----------------------------------------------------------------------- FORM EXAMPLE -->
+        <form id="frmExample" class="actual-form frmExample">
+          <table>
+            <tr><th>Type</th><th>Word</th></tr>
+            <tr><td>Adjective 1</td><td><input
+                    class="txtExampleAdjective1"
+                    placeholder="Adjective" autocapitalize="off"></td></tr>
+            <tr><td>Adjective 2</td><td><input
+                    class="txtExampleAdjective2"
+                    placeholder="Adjective" autocapitalize="off"></td></tr>
+          </table>
+          <button class="btn btn-dark cmdExample" type="button">Submit</button>
+        </form>
+        <!--------------------------------------------------------------------------------------->
       </div>
-      <!-- STORY--------------------------------------------------------------------------------------- -->
+      <!-------------------------------------------------------------------------------- STORY -->
       <div class = pnlStory>
         <p class = "txtStory" style = "text-align: center; padding: 0px; margin: 0px;"></p>
       </div>
