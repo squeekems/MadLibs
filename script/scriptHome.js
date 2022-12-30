@@ -71,7 +71,7 @@ cmdExample?.addEventListener("click", function() {
     pnlParagraph.classList.add("form-close");
     txtStory.classList.add("form-open");
     frmExample.classList.remove("form-open");
-    txtStory.innerHTML = ``;
+    txtStory.innerHTML = `This is an ${txtExampleAdjective1.value} and ${txtExampleAdjective2.value} example!`;
   }
 })
 
