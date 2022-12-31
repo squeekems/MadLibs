@@ -85,16 +85,7 @@ cmdWowIntro?.addEventListener("click", function() {
     pnlParagraph.classList.add("form-close");
     txtStory.classList.add("form-open");
     frmWowIntro.classList.add("form-open");
-    txtStory.innerHTML = `The eccentric, often brilliant Gnomes are held as one of the most peculiar races of the world.
-With their obsession for developing radical new technologies and constructing marvels of mind-bending engineering, it's a wonder that any Gnomes have survived to proliferate.
-Over the years, the Gnomes have contributed ingenious weapons to aid the Grand Alliance in its fierce battles against the Horde.
-Thriving within the wondrous techno-city of Gnomeregan, the Gnomes shared the resources of the forests of Dun Morogh peaks with their Dwarven cousins.
-Yet recently, a barbaric menace rose up from the bowels of the earth and invaded Gnomeregan.
-Aided by their Dwarven allies, the Gnomes fought a valiant battle to save their beloved city.
-Nevertheless, Gnomeregan was irrevocably lost.
-The surviving Gnomes fled to the safety of the Dwarven stronghold of Ironforge.
-There they remain, devising strategies to retake their city.
-As a Gnome of proud standing, it falls to you to answer the challenge and lead your curious people to a brighter future.`
+    txtStory.innerHTML = `The ${txtWowIntroAdjective1}, often ${txtWowIntroAdjective2} ${txtWowIntroGroupPlural} are held as one of the most ${txtWowIntroAdjective3} races of the world. With their ${txtWowIntroNoun1} for developing radical new technologies and constructing marvels of mind-bending engineering, it's a wonder that any Gnomes have survived to proliferate. Over the years, the Gnomes have contributed ingenious weapons to aid the Grand Alliance in its fierce battles against the Horde. Thriving within the wondrous techno-city of Gnomeregan, the Gnomes shared the resources of the forests of Dun Morogh peaks with their Dwarven cousins. Yet recently, a barbaric menace rose up from the bowels of the earth and invaded Gnomeregan. Aided by their Dwarven allies, the Gnomes fought a valiant battle to save their beloved city. Nevertheless, Gnomeregan was irrevocably lost. The surviving Gnomes fled to the safety of the Dwarven stronghold of Ironforge. There they remain, devising strategies to retake their city. As a Gnome of proud standing, it falls to you to answer the challenge and lead your curious people to a brighter future.`
   }
 })
 
