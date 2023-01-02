@@ -77,7 +77,7 @@ cmdExample?.addEventListener("click", function() {
 
 // WowIntro Form
 const frmWowIntro = document.querySelector(".frmWowIntro");
-const arrWowIntro;
+const arrWowIntro = [];
 const cmdWowIntro = document.querySelector(".cmdWowIntro");
 
 cmdWowIntro?.addEventListener("click", function() {
