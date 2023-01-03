@@ -79,7 +79,7 @@ cmdExample?.addEventListener("click", function() {
 const frmWowIntro = document.querySelector(".frmWowIntro");
 const txtWowIntroAdjective1 = document.querySelector(".txtWowIntroAdjective1");
 const txtWowIntroAdjective2 = document.querySelector(".txtWowIntroAdjective2");
-const txtWowIntroGroupPlural = document.querySelector(".txtWowIntroGroupPlural");
+const txtWowIntroProperNoun = document.querySelector(".txtWowIntroProperNoun");
 const txtWowIntroAdjective3 = document.querySelector(".txtWowIntroAdjective3");
 const txtWowIntroNoun1 = document.querySelector(".txtWowIntroNoun1");
 const txtWowIntroVerb1 = document.querySelector(".txtWowIntroVerb1");
@@ -100,7 +100,7 @@ const txtWowIntroVerb5 = document.querySelector(".txtWowIntroVerb5");
 const txtWowIntroAdjective9 = document.querySelector(".txtWowIntroAdjective9");
 const txtWowIntroCity2 = document.querySelector(".txtWowIntroCity2");
 const txtWowIntroVerb6 = document.querySelector(".txtWowIntroVerb6");
-const arrWowIntro = [txtWowIntroAdjective1, txtWowIntroAdjective2, txtWowIntroGroupPlural, txtWowIntroAdjective3, txtWowIntroNoun1, txtWowIntroVerb1, txtWowIntroNoun2, txtWowIntroVerb2, txtWowIntroAdjective4, txtWowIntroVerb3, txtWowIntroAdjective5, txtWowIntroAdjective6, txtWowIntroNoun3, txtWowIntroVerb4, txtWowIntroAdjective7, txtWowIntroCity1, txtWowIntroPlace, txtWowIntroRelationalAdjective, txtWowIntroAdjective8, txtWowIntroVerb5, txtWowIntroAdjective9, txtWowIntroCity2, txtWowIntroVerb6];
+const arrWowIntro = [txtWowIntroAdjective1, txtWowIntroAdjective2, txtWowIntroProperNoun, txtWowIntroAdjective3, txtWowIntroNoun1, txtWowIntroVerb1, txtWowIntroNoun2, txtWowIntroVerb2, txtWowIntroAdjective4, txtWowIntroVerb3, txtWowIntroAdjective5, txtWowIntroAdjective6, txtWowIntroNoun3, txtWowIntroVerb4, txtWowIntroAdjective7, txtWowIntroCity1, txtWowIntroPlace, txtWowIntroRelationalAdjective, txtWowIntroAdjective8, txtWowIntroVerb5, txtWowIntroAdjective9, txtWowIntroCity2, txtWowIntroVerb6];
 const cmdWowIntro = document.querySelector(".cmdWowIntro");
 
 cmdWowIntro?.addEventListener("click", function() {
@@ -108,7 +108,7 @@ cmdWowIntro?.addEventListener("click", function() {
     pnlParagraph.classList.add("form-close");
     txtStory.classList.add("form-open");
     frmWowIntro.classList.add("form-open");
-    txtStory.innerHTML = `The ${txtWowIntroAdjective1}, often ${txtWowIntroAdjective2} ${txtWowIntroGroupPlural} are held as one of the most ${txtWowIntroAdjective3} races of the world. With their ${txtWowIntroNoun1} for ${txtWowIntroVerb1} radical new ${txtWowIntroNoun2} and ${txtWowIntroVerb2} marvels of ${txtWowIntroAdjective4} engineering, it is a wonder that any ${txtWowIntroGroupPlural} have survived to proliferate. Over the years, the ${txtWowIntroGroupPlural} have ${txtWowIntroVerb3} ${txtWowIntroAdjective5} ${txtWowIntroNoun3} to aid their faction in its ${txtWowIntroAdjective6} battles against the enemy. ${txtWowIntroVerb4} within the ${txtWowIntroAdjective7} techno-city of ${txtWowIntroCity1}, the ${txtWowIntroGroupPlural} shared the resources of the forests of ${txtWowIntroPlace} peaks with their ${txtWowIntroRelationalAdjective} cousins. Yet recently, a ${txtWowIntroAdjective8} menace ${txtWowIntroVerb5} up from the bowels of the earth and invaded ${txtWowIntroCity1}. Aided by their ${txtWowIntroRelationalAdjective} allies, the ${txtWowIntroGroupPlural} fought a ${txtWowIntroAdjective9} battle to save their beloved city. Nevertheless, ${txtWowIntroCity1} was irrevocably lost. The surviving ${txtWowIntroGroupPlural} fled to the safety of the ${txtWowIntroRelationalAdjective} stronghold of ${txtWowIntroCity2}. There they remain, ${txtWowIntroVerb6} strategies to retake their city.`
+    txtStory.innerHTML = `The ${txtWowIntroAdjective1}, often ${txtWowIntroAdjective2} ${txtWowIntroProperNoun} are held as one of the most ${txtWowIntroAdjective3} races of the world. With their ${txtWowIntroNoun1} for ${txtWowIntroVerb1} radical new ${txtWowIntroNoun2} and ${txtWowIntroVerb2} marvels of ${txtWowIntroAdjective4} engineering, it is a wonder that any ${txtWowIntroProperNoun} have survived to proliferate. Over the years, the ${txtWowIntroProperNoun} have ${txtWowIntroVerb3} ${txtWowIntroAdjective5} ${txtWowIntroNoun3} to aid their faction in its ${txtWowIntroAdjective6} battles against the enemy. ${txtWowIntroVerb4} within the ${txtWowIntroAdjective7} techno-city of ${txtWowIntroCity1}, the ${txtWowIntroProperNoun} shared the resources of the forests of ${txtWowIntroPlace} peaks with their ${txtWowIntroRelationalAdjective} cousins. Yet recently, a ${txtWowIntroAdjective8} menace ${txtWowIntroVerb5} up from the bowels of the earth and invaded ${txtWowIntroCity1}. Aided by their ${txtWowIntroRelationalAdjective} allies, the ${txtWowIntroProperNoun} fought a ${txtWowIntroAdjective9} battle to save their beloved city. Nevertheless, ${txtWowIntroCity1} was irrevocably lost. The surviving ${txtWowIntroProperNoun} fled to the safety of the ${txtWowIntroRelationalAdjective} stronghold of ${txtWowIntroCity2}. There they remain, ${txtWowIntroVerb6} strategies to retake their city.`
   }
 })
 
