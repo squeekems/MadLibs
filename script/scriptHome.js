@@ -18,6 +18,8 @@ function isFilled(array) {
     if (textbox.value == "" || textbox.value == null) {
       blnFilled = false;
       alert("Please finish the form!");
+      textbox.focus();
+      textbox.select();
       break;
     }
   }
@@ -69,7 +71,7 @@ cmdExample?.addEventListener("click", function() {
     pnlParagraph.classList.add("form-close");
     txtStory.classList.add("form-open");
     frmExample.classList.remove("form-open");
-    txtStory.innerHTML = `This is an ${txtExampleAdjective1.value} and ${txtExampleAdjective2.value} example!`;
+    txtStory.innerHTML = `This is an ${txtExampleAdjective1} and ${txtExampleAdjective2} example!`;
   }
 })
 
