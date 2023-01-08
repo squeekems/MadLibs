@@ -18,7 +18,6 @@ function isFilled(array) {
     if (textbox.value == "" || textbox.value == null) {
       blnFilled = false;
       alert("Please finish the form!");
-      textbox.select();
       break;
     }
   }
